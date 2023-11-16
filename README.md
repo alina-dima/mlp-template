@@ -29,10 +29,10 @@ Make sure you have the following software and tools installed:
    
    To update your forked repo follow these steps:
    1. `git fetch upstream`
-   2. `git rebase upstream/master`
-   3. `git push origin master`
+   2. `git rebase upstream/main`
+   3. `git push origin main`
       
-      Sometimes you may need to use `git push --force origin master`. Only use this flag the first time you push after you rebased, and be careful as you might overwrite your teammates' changes.
+      Sometimes you may need to use `git push --force origin main`. Only use this flag the first time you push after you rebased, and be careful as you might overwrite your teammates' changes.
 ### Git LFS
 1. Set it up for your user account (only once, not each time you want to use it).
     ```bash
